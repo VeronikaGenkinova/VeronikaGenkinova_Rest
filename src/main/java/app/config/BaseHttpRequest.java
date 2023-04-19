@@ -24,4 +24,6 @@ public class BaseHttpRequest {
         return RestAssured.given()
                 .spec(buildRequestSpecification());
     }
+
+
 }
